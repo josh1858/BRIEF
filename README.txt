@@ -1,6 +1,8 @@
-BA Destination Intelligence PWA
+BA Euroflyer Destination Intelligence PWA
 
-Open index.html via HTTPS or a local web server. Install from the browser prompt.
+Open index.html from a local web server or HTTPS host for full PWA install support.
 
-Live weather/forecast uses Open-Meteo. Public holidays use Nager.Date where a country code is mapped.
-Live baggage reclaim is not available from a universal free public API, so the app includes editable fields and an airport arrivals search link for the selected IATA airport.
+Changes in this version:
+- Destination list replaced with BA Euroflyer destinations from London Gatwick.
+- Baggage reclaim sections and baggage-related information removed.
+- Keeps live local time, London time difference, current weather, wind, rest-of-day forecast, arrival flow estimate, and holiday/events section.
