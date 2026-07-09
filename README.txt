@@ -1,14 +1,6 @@
-BA EFW PWA package
+BA Destination Intelligence PWA
 
-Files:
-- index.html: app
-- manifest.webmanifest: PWA manifest
-- sw.js: service worker for offline app shell
-- icons/: install icons
+Open index.html via HTTPS or a local web server. Install from the browser prompt.
 
-How to use:
-1. Upload this folder to any HTTPS web hosting, or test locally with: python3 -m http.server 8000
-2. Open the site in Chrome/Edge/Safari.
-3. Use the browser Install/Add to Home Screen option.
-
-Note: PWA install and service workers do not run from a file:// URL. Live weather requires internet; the briefing form and embedded airport list work offline after first load.
+Live weather/forecast uses Open-Meteo. Public holidays use Nager.Date where a country code is mapped.
+Live baggage reclaim is not available from a universal free public API, so the app includes editable fields and an airport arrivals search link for the selected IATA airport.
